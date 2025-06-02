@@ -14,7 +14,7 @@ To visualize sectoral trends, structural market changes, and growth indexes in A
 - Total sector volumes (in million AZN)
 - Sector share in the total market (%)
 - Annual growth indexes (%)
-- Time series trends (2000–2024)
+- Time series trends (2000–2023)
 
 ---
 
@@ -27,7 +27,7 @@ To visualize sectoral trends, structural market changes, and growth indexes in A
 │ ├── Main.png
 │ ├── Overview.png
 │ ├── Trends.png
-│ ├── Structure & Share.png
+│ ├── Structure_Share.png
 │ └── Indexes.png
 ├── 📂 Excel
 │ ├── Retail_Services_Volume.xlsx
@@ -105,7 +105,7 @@ This project was fully designed and developed by **Amid Tahmasib**, and includes
 | Main | ![Main](images/Main.png) |
 | Overview | ![Overview](images/Overview.png) |
 | Trends | ![Trends](images/Trends.png) |
-| Structure & Share | ![Structure](images/Structure_Share.png) |
+| Structure_Share | ![Structure](images/Structure_Share.png) |
 | Indexes | ![Indexes](images/Indexes.png) |
 
 ---
