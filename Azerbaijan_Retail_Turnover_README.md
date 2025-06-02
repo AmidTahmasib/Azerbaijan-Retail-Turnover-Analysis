@@ -109,7 +109,8 @@ Analyzes how turnover **indexes** have changed relative to the previous year.
 - `Sectors`: Used in min/max index comparison
 
 ---
-
-Prepared by: *Your Name*
+        
+Prepared by: *Amid Maharramov*
 Date: 2025
 Repository: `Azerbaijan_Retail_Turnover_Analysis`
+    
