@@ -1,4 +1,4 @@
-# 🇦🇿 Azerbaijan Retail Turnover Analysis
+# Azerbaijan Retail Turnover Analysis
 
 📊 **Power BI Project | National Retail & Services Sector Analysis (2000–2024)**  
 🔗 Data Source: [stat.gov.az](https://www.stat.gov.az)
