@@ -1,6 +1,6 @@
 # Azerbaijan Retail Turnover Analysis
 
-📊 **Power BI Project | National Retail & Services Sector Analysis (2000–2024)**  
+📊 **Power BI Project | National Retail & Services Sector Analysis (2000–2023)**  
 🔗 Data Source: [stat.gov.az](https://www.stat.gov.az)
 
 This project presents a detailed Power BI dashboard analyzing **retail trade**, **public catering**, and **paid services** turnover in Azerbaijan over more than two decades.
@@ -23,12 +23,11 @@ To visualize sectoral trends, structural market changes, and growth indexes in A
 📂 Azerbaijan-Retail-Turnover-Analysis
 ├── Azerbaijan_Retail_Turnover_Analysis.pbix
 ├── README.md
-├── Azerbaijan_Retail_Turnover_README.md
 ├── 📂 images
 │ ├── Main.png
 │ ├── Overview.png
 │ ├── Trends.png
-│ ├── Structure_Share.png
+│ ├── Structure & Share.png
 │ └── Indexes.png
 ├── 📂 Excel
 │ ├── Retail_Services_Volume.xlsx
@@ -111,11 +110,11 @@ This project was fully designed and developed by **Amid Tahmasib**, and includes
 
 ---
 
-## 🇦🇿 Layihə Haqqında (Azərbaycan dilində)
+## Layihə Haqqında (Azərbaycan dilində)
 
 ### 🔍 Layihənin Məqsədi
 
-Azərbaycan üzrə **pərakəndə satış**, **iaşə**, və **ödənişli xidmətlər** sektorlarının **2000–2024-cü illər** üzrə statistik təhlilinin Power BI vasitəsilə vizuallaşdırılması.
+Azərbaycan üzrə **pərakəndə satış**, **iaşə** və **ödənişli xidmətlər** sektorlarının **2000–2023-cü illər** üzrə statistik təhlilinin Power BI vasitəsilə vizuallaşdırılması.
 
 ### 📦 Fayl Quruluşu
 
