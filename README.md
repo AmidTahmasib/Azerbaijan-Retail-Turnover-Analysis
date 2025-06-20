@@ -18,28 +18,28 @@ To visualize sectoral trends, structural market changes, and growth indexes in A
 
 ---
 
-📁 Project Structure
+## 📁 Project Structure
 
 Azerbaijan-Retail-Turnover-Analysis/
 │
-├── Azerbaijan_Retail_Turnover_Analysis.pbix     # Power BI dashboard file
-├── README.md                                    # Project documentation and structure
+├── Azerbaijan_Retail_Turnover_Analysis.pbix # Power BI dashboard file
+├── README.md # Project documentation and structure
 │
-├── images/                                      # Dashboard screenshots & visuals
-│   ├── Main.png
-│   ├── Overview.png
-│   ├── Trends.png
-│   ├── Structure_Share.png
-│   └── Indexes.png
+├── images/ # Dashboard screenshots & visuals
+│ ├── Main.png
+│ ├── Overview.png
+│ ├── Trends.png
+│ ├── Structure_Share.png
+│ └── Indexes.png
 │
-├── Excel/                                       # Excel files used as data source
-│   ├── Retail_Services_Volume.xlsx
-│   ├── Retail_Services_Share.xlsx
-│   └── Retail_Services_Indexes.xlsx
-💡 All data is sourced from publicly available statistics published by The State Statistical Committee of Azerbaijan. Visualizations are created using Microsoft Power BI.
+├── Excel/ # Excel files used as data source
+│ ├── Retail_Services_Volume.xlsx
+│ ├── Retail_Services_Share.xlsx
+│ └── Retail_Services_Indexes.xlsx
 
-
-
+yaml
+Copy
+Edit
 
 ---
 
@@ -116,7 +116,7 @@ This project was fully designed and developed by **Amid Maharramov**, and includ
 
 ---
 
-## Layihə Haqqında (Azərbaycan dilində)
+## 🇦🇿 Layihə Haqqında (Azərbaycan dilində)
 
 ### 🔍 Layihənin Məqsədi
 
@@ -142,8 +142,5 @@ Azərbaycan üzrə **pərakəndə satış**, **iaşə** və **ödənişli xidmə
 ## 📩 Contact
 
 For more information or collaboration:  
-**📧 amid.meherremov@gmail.com**  
-**🌐 GitHub:** [github.com/AmidTahmasib](https://github.com/AmidTahmasib)
-
----
-
+📧 **amid.meherremov@gmail.com**  
+🌐 **GitHub:** [github.com/AmidTahmasib](https://github.com/AmidTahmasib)
