@@ -18,28 +18,26 @@ To visualize sectoral trends, structural market changes, and growth indexes in A
 
 ---
 
-## 📁 Project Structure
+### 📁 Project Structure
 
+```text
 Azerbaijan-Retail-Turnover-Analysis/
 │
-├── Azerbaijan_Retail_Turnover_Analysis.pbix # Power BI dashboard file
-├── README.md # Project documentation and structure
+├── Azerbaijan_Retail_Turnover_Analysis.pbix     # Power BI dashboard file
+├── README.md                                    # Project documentation and structure
 │
-├── images/ # Dashboard screenshots & visuals
-│ ├── Main.png
-│ ├── Overview.png
-│ ├── Trends.png
-│ ├── Structure_Share.png
-│ └── Indexes.png
+├── images/                                      # Dashboard screenshots & visuals
+│   ├── Main.png
+│   ├── Overview.png
+│   ├── Trends.png
+│   ├── Structure_Share.png
+│   └── Indexes.png
 │
-├── Excel/ # Excel files used as data source
-│ ├── Retail_Services_Volume.xlsx
-│ ├── Retail_Services_Share.xlsx
-│ └── Retail_Services_Indexes.xlsx
-
-yaml
-Copy
-Edit
+├── Excel/                                       # Excel files used as data source
+│   ├── Retail_Services_Volume.xlsx
+│   ├── Retail_Services_Share.xlsx
+│   └── Retail_Services_Indexes.xlsx
+```
 
 ---
 
