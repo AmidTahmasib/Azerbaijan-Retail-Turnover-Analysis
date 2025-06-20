@@ -18,21 +18,27 @@ To visualize sectoral trends, structural market changes, and growth indexes in A
 
 ---
 
-## 📁 Project Structure
+📁 Project Structure
 
-📂 Azerbaijan-Retail-Turnover-Analysis
-├── Azerbaijan_Retail_Turnover_Analysis.pbix
-├── README.md
-├── 📂 images
-│ ├── Main.png
-│ ├── Overview.png
-│ ├── Trends.png
-│ ├── Structure_Share.png
-│ └── Indexes.png
-├── 📂 Excel
-│ ├── Retail_Services_Volume.xlsx
-│ ├── Retail_Services_Share.xlsx
-│ └── Retail_Services_Indexes.xlsx
+Azerbaijan-Retail-Turnover-Analysis/
+│
+├── Azerbaijan_Retail_Turnover_Analysis.pbix     # Power BI dashboard file
+├── README.md                                    # Project documentation and structure
+│
+├── images/                                      # Dashboard screenshots & visuals
+│   ├── Main.png
+│   ├── Overview.png
+│   ├── Trends.png
+│   ├── Structure_Share.png
+│   └── Indexes.png
+│
+├── Excel/                                       # Excel files used as data source
+│   ├── Retail_Services_Volume.xlsx
+│   ├── Retail_Services_Share.xlsx
+│   └── Retail_Services_Indexes.xlsx
+💡 All data is sourced from publicly available statistics published by The State Statistical Committee of Azerbaijan. Visualizations are created using Microsoft Power BI.
+
+
 
 
 ---
