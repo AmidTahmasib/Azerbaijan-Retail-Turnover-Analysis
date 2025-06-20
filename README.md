@@ -43,7 +43,7 @@ Azerbaijan-Retail-Turnover-Analysis/
 
 ## 👨‍💻 Work Done
 
-This project was fully designed and developed by **Amid Maharramov**, and includes:
+This project was fully designed and developed by **Amid Tahmasib**, and includes:
 
 ### 📥 Data Collection & Preparation
 - Extracted historical retail data manually from [stat.gov.az](https://www.stat.gov.az)
