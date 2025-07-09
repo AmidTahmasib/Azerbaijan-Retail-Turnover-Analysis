@@ -147,10 +147,10 @@ Show overall market growth, with tooltips breaking down sector contributions per
 #### 🍩 Visual 2: Donut Chart
 
 **Purpose:**  
-Compare each sector's share of total turnover for a selected year or period.
+To display each sector's contribution to the total turnover across the entire 2000–2023 period. This visual helps in understanding the long-term market structure and sector dominance.
 
 **Configuration:**
-- Legend: `Year` *(Verify — this may need to be sector names)*
+- Legend: `Sector`
 - Values:
   - `Sum of Retail_Trade_Volume_Mln`
   - `Sum of Paid_Services_Volume_Mln`
@@ -273,6 +273,174 @@ Azərbaycan üzrə **pərakəndə satış**, **iaşə** və **ödənişli xidmə
 - 5 səhifəlik interaktiv hesabatın hazırlanması
 - Vizual dizayn və rəng bölgüsü ilə oxunaqlılığın təmin edilməsi
 - Sənədlərin və vizualların iki dildə təqdim edilməsi
+
+---
+
+## 📊 Hesabat Səhifələri və Vizuallar
+
+Bu bölmədə hesabatdakı hər bir səhifə, onun analitik məqsədi və istifadə olunan vizualların texniki konfiqurasiyası haqqında ətraflı məlumat verilir.
+
+> **Ümumi Elementlər:**  
+> Hər səhifədə:
+> - 🎚️ İllərə görə **Slicer**  
+> - 🔘 Səhifələr arasında rahat keçid üçün **Naviqasiya Düymələri (Navigation Buttons)** mövcuddur.
+
+---
+
+### 1. ⚪ Main (Əsas Göstəricilər)
+
+**📌 Səhifənin Məqsədi:**  
+Pərakəndə ticarət sektorunun bazar payı, həcmi və bütün sektorların indeks dəyişimlərini ümumi mənzərə ilə təqdim edir.
+
+#### 📈 Vizual 1: Line Chart
+
+**Məqsəd:**  
+Bütün sektorların və ümumi bazarın illik artım/azalma indekslərini müqayisə edərək iqtisadi tsikllərə reaksiyanı anlamaq.
+
+**Konfiqurasiya:**
+- X-oxu: `Year`
+- Y-oxu:
+  - `Retail_İndex_Percent`
+  - `Catering_İndex_Percent`
+  - `Paid_Services_İndex_Percent`
+  - `Total_Market_İndex_Percent`
+
+#### 📉 Vizual 2: Area Chart
+
+**Məqsəd:**  
+Pərakəndə ticarət sektorunun ümumi bazardakı payının zamanla necə dəyişdiyini izləmək.
+
+**Konfiqurasiya:**
+- X-oxu: `Year`
+- Y-oxu: `Retail_Share_Percent`
+
+#### 📊 Vizual 3: Area Chart
+
+**Məqsəd:**  
+Pərakəndə ticarət sektorunun dövriyyə həcminin (mln AZN) illər üzrə artımını göstərmək.
+
+**Konfiqurasiya:**
+- X-oxu: `Year`
+- Y-oxu: `Retail_Trade_Volume_Mln`
+
+---
+
+### 2. ⚪ Overview (İcmal)
+
+**📌 Səhifənin Məqsədi:**  
+Ümumi istehlak bazarının həcmini və sektorlar üzrə pay bölgüsünü göstərmək.
+
+#### 📊 Vizual 1: Stacked Column Chart
+
+**Məqsəd:**  
+Ümumi bazar həcminin illər üzrə artımını göstərmək və hər il sektorların nə qədər töhfə verdiyini tooltip-lərlə göstərmək.
+
+**Konfiqurasiya:**
+- X-oxu: `Date`
+- Y-oxu: `Total_Consumers_Market_Mln`
+- Tooltip-lər:
+  - `Retail_Trade_Volume_Mln`
+  - `Paid_Services_Volume_Mln`
+  - `Catering_Volume_Mln`
+
+#### 🍩 Vizual 2: Donut Chart
+
+**Məqsəd:**  
+2000–2023-cü illər ərzində hər bir sektorun ümumi dövriyyəyə verdiyi ümumi töhfəni faizlə göstərmək. Bu, sektorların uzunmüddətli bazar payını müqayisə etmək üçün istifadə olunur.
+
+**Konfiqurasiya:**
+- Legend: `Sector`
+- Dəyərlər:
+  - `Retail_Trade_Volume_Mln`
+  - `Paid_Services_Volume_Mln`
+  - `Catering_Volume_Mln`
+
+---
+
+### 3. ⚪ Trends (Trendlər)
+
+**📌 Səhifənin Məqsədi:**  
+Hər sektorun dövriyyə trendini aydın və ayrıca analiz etmək.
+
+#### 📈 Vizual 1: Line Chart
+
+**Məqsəd:**  
+Pərakəndə sektorunun (ən böyük həcmli) artım trendini təkbaşına göstərmək.
+
+**Konfiqurasiya:**
+- X-oxu: `Year`
+- Y-oxu: `Retail_Trade_Volume_Mln`
+
+#### 📉 Vizual 2: Line Chart
+
+**Məqsəd:**  
+Həcm baxımından yaxın olan ödənişli xidmətlər və iaşə sektorlarını eyni qrafikdə müqayisə etmək.
+
+**Konfiqurasiya:**
+- X-oxu: `Year`
+- Y-oxu:
+  - `Paid_Services_Volume_Mln`
+  - `Catering_Volume_Mln`
+
+---
+
+### 4. ⚪ Structure & Share (Struktur və Pay)
+
+**📌 Səhifənin Məqsədi:**  
+Sektorların bazar strukturundakı dəyişikliklərini təhlil etmək.
+
+#### 📈 Vizual 1: Line Chart
+
+**Məqsəd:**  
+Sektorların bazar payı trendlərini eyni vizualda göstərmək və dəyişiklikləri izləmək.
+
+**Konfiqurasiya:**
+- X-oxu: `Year`
+- Y-oxu:
+  - `Retail_Share_Percent`
+  - `Paid_Services_Share_Percent`
+  - `Catering_Share_Percent`
+
+#### 🧩 Vizual 2: Stacked Area Chart
+
+**Məqsəd:**  
+Ümumi bazarın (100 %) illər üzrə sektorlar arasında necə paylandığını göstərmək.
+
+**Konfiqurasiya:**
+- X-oxu: `Year`
+- Y-oxu:
+  - `Retail_Share_Percent`
+  - `Paid_Services_Share_Percent`
+  - `Catering_Share_Percent`
+
+---
+
+### 5. ⚪ Indexes (İndekslər)
+
+**📌 Səhifənin Məqsədi:**  
+Real fiziki həcm artımını (inflyasiyadan təmizlənmiş) təhlil etmək və sektorların zirvə göstəricilərini müəyyənləşdirmək.
+
+#### 📊 Vizual 1: Clustered Column Chart
+
+**Məqsəd:**  
+Sektorların illik indekslərini müqayisə etmək.
+
+**Konfiqurasiya:**
+- X-oxu: `Year`
+- Y-oxu: `İndex_Percent`
+- Əfsanə: `Sector`
+- Tooltip: `First_İndex_Flag`
+
+#### 📊 Vizual 2: Clustered Bar Chart
+
+**Məqsəd:**  
+2000–2023 dövründə hər sektorun ən yüksək və ən aşağı indekslərini göstərmək.
+
+**Konfiqurasiya:**
+- Y-oxu: `Sector`
+- X-oxu:
+  - `Min İndex by Sector`
+  - `Max İndex by Sector`
 
 ---
 
