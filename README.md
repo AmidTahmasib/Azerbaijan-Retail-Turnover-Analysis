@@ -156,7 +156,7 @@ To display each sector's contribution to the total turnover across the entire 20
   - `Sum of Paid_Services_Volume_Mln`
   - `Sum of Catering_Volume_Mln`
 
-| Overview | ![Overview](images/Overview.png) |
+| Overview | ![Overview](images/overview.png) |
 
 ---
 
