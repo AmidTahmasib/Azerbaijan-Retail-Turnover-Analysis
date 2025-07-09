@@ -75,41 +75,180 @@ This project was fully designed and developed by **Amid Tahmasib**, and includes
 
 ---
 
-## 📊 Report Pages Overview
+## 📊 Report Pages & Visuals
 
-### 1. 🟢 Main Dashboard
-- High-level overview with KPIs for each sector
-- Year filter with dynamic visuals
-- Stacked bar for comparative sector volumes
+This section provides a detailed breakdown of each page in the report, its analytical purpose, and the technical configuration of the visuals used.
 
-### 2. 📋 Overview
-- Year-by-year change in sector volumes
-- Line and area charts to show cumulative patterns
-
-### 3. 📈 Trends
-- Sector-specific growth lines
-- Consistent scale and dynamic tooltips for usability
-
-### 4. 📊 Structure & Share
-- Sector share (%) of total consumer market
-- DAX-based percentage calculations
-- Pie and bar charts with clear labeling
-
-### 5. 📉 Indexes
-- Annual growth indexes by sector
-- Conditional coloring for up/down trends
-- Mixed charts and tooltip explanations
+> **Common Elements:**  
+> Each page includes:
+> - 🎚️ A **Slicer** to filter by year  
+> - 🔘 **Navigation Buttons** to move between report pages  
 
 ---
 
-## 🖼 Screenshots
+### 1. ⚪ Main (Key Indicators)
 
-| Page | Visual |
-|------|--------|
+**📌 Page Purpose:**  
+Provides a high-level summary, consolidating the market share and volume of the retail sector, along with index changes for all sectors.
+
+#### 📈 Visual 1: Line Chart
+
+**Purpose:**  
+Compare annual growth/decline indexes of all sectors and the total market on a single chart, showing how each sector reacts to economic cycles.
+
+**Configuration:**
+- X-axis: `Year`
+- Y-axis:
+  - `Sum of Retail_İndex_Percent`
+  - `Sum of Catering_İndex_Percent`
+  - `Sum of Paid_Services_İndex_Percent`
+  - `Sum of Total_Market_İndex_Percent`
+
+#### 📉 Visual 2: Area Chart
+
+**Purpose:**  
+Track the evolution of the retail trade sector's market share (as a percentage).
+
+**Configuration:**
+- X-axis: `Year`
+- Y-axis: `Sum of Retail_Share_Percent`
+
+#### 📊 Visual 3: Area Chart
+
+**Purpose:**  
+Visualize the absolute growth in retail turnover volume (in Million AZN).
+
+**Configuration:**
+- X-axis: `Year`
+- Y-axis: `Sum of Retail_Trade_Volume_Mln`
+
 | Main | ![Main](images/Main.png) |
+
+---
+
+### 2. ⚪ Overview
+
+**📌 Page Purpose:**  
+Displays total consumer market volume and its proportional breakdown by sector.
+
+#### 📊 Visual 1: Stacked Column Chart
+
+**Purpose:**  
+Show overall market growth, with tooltips breaking down sector contributions per year.
+
+**Configuration:**
+- X-axis: `Date`
+- Y-axis: `Sum of Total_Consumers_Market_Mln`
+- Tooltips:
+  - `Sum of Retail_Trade_Volume_Mln`
+  - `Sum of Paid_Services_Volume_Mln`
+  - `Sum of Catering_Volume_Mln`
+
+#### 🍩 Visual 2: Donut Chart
+
+**Purpose:**  
+Compare each sector's share of total turnover for a selected year or period.
+
+**Configuration:**
+- Legend: `Year` *(Verify — this may need to be sector names)*
+- Values:
+  - `Sum of Retail_Trade_Volume_Mln`
+  - `Sum of Paid_Services_Volume_Mln`
+  - `Sum of Catering_Volume_Mln`
+
 | Overview | ![Overview](images/Overview.png) |
+
+---
+
+### 3. ⚪ Trends
+
+**📌 Page Purpose:**  
+Track the turnover volume trends of each sector separately due to differing scales.
+
+#### 📈 Visual 1: Line Chart
+
+**Purpose:**  
+Display the growth trend of the **retail trade sector** in isolation.
+
+**Configuration:**
+- X-axis: `Year`
+- Y-axis: `Sum of Retail_Trade_Volume_Mln`
+
+#### 📉 Visual 2: Line Chart
+
+**Purpose:**  
+Compare **paid services** and **catering** sector trends on the same scale.
+
+**Configuration:**
+- X-axis: `Year`
+- Y-axis:
+  - `Sum of Paid_Services_Volume_Mln`
+  - `Sum of Catering_Volume_Mln`
+
 | Trends | ![Trends](images/Trends.png) |
+
+---
+
+### 4. ⚪ Structure & Share
+
+**📌 Page Purpose:**  
+Analyze how the **market structure** evolved — i.e., sector shares over time.
+
+#### 📈 Visual 1: Line Chart
+
+**Purpose:**  
+Track the market share trends of all sectors, showing shifts and intersections.
+
+**Configuration:**
+- X-axis: `Year`
+- Y-axis:
+  - `Sum of Retail_Share_Percent`
+  - `Sum of Paid_Services_Share_Percent`
+  - `Sum of Catering_Share_Percent`
+
+#### 🧩 Visual 2: Stacked Area Chart
+
+**Purpose:**  
+Visualize how the total market (100%) was split among sectors yearly.
+
+**Configuration:**
+- X-axis: `Year`
+- Y-axis:
+  - `Sum of Retail_Share_Percent`
+  - `Sum of Paid_Services_Share_Percent`
+  - `Sum of Catering_Share_Percent`
+
 | Structure_Share | ![Structure](images/Structure_Share.png) |
+
+---
+
+### 5. ⚪ Indexes
+
+**📌 Page Purpose:**  
+Analyze **real physical growth**, adjusted for inflation, to find sectoral peaks and lows.
+
+#### 📊 Visual 1: Clustered Column Chart
+
+**Purpose:**  
+Compare real growth indexes of sectors year-by-year.
+
+**Configuration:**
+- X-axis: `Year`
+- Y-axis: `Sum of İndex_Percent`
+- Legend: `Sector`
+- Tooltip: `First İndex_Flag`
+
+#### 📊 Visual 2: Clustered Bar Chart
+
+**Purpose:**  
+Display **min/max index values** per sector for the full period (2000–2023), showing performance extremes.
+
+**Configuration:**
+- Y-axis: `Sector`
+- X-axis:
+  - `Min İndex by Sector`
+  - `Max İndex by Sector`
+
 | Indexes | ![Indexes](images/Indexes.png) |
 
 ---
