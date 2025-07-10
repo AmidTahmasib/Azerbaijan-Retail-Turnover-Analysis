@@ -86,6 +86,7 @@ This section provides a detailed breakdown of each page in the report, its analy
 
 ---
 
+
 ### 1. ⚪ Main (Key Indicators)
 
 **📌 Page Purpose:**  
@@ -126,6 +127,7 @@ Visualize the absolute growth in retail turnover volume (in Million AZN).
 
 ---
 
+
 ### 2. ⚪ Overview
 
 **📌 Page Purpose:**  
@@ -160,6 +162,7 @@ To display each sector's contribution to the total turnover across the entire 20
 
 ---
 
+
 ### 3. ⚪ Trends
 
 **📌 Page Purpose:**  
@@ -188,6 +191,7 @@ Compare **paid services** and **catering** sector trends on the same scale.
 | Trends | ![Trends](images/Trends.png) |
 
 ---
+
 
 ### 4. ⚪ Structure & Share
 
@@ -222,6 +226,7 @@ Visualize how the total market (100%) was split among sectors yearly.
 
 ---
 
+
 ### 5. ⚪ Indexes
 
 **📌 Page Purpose:**  
@@ -252,6 +257,9 @@ Display **min/max index values** per sector for the full period (2000–2023), s
 | Indexes | ![Indexes](images/Indexes.png) |
 
 ---
+
+
+
 
 ## 🇦🇿 Layihə Haqqında (Azərbaycan dilində)
 
