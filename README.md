@@ -261,7 +261,7 @@ Display **min/max index values** per sector for the full period (2000–2023), s
 
 
 
-## 🇦🇿 # Azərbaycanda Pərakəndə Ticarət Dövriyyəsi Analizi (Azərbaycan dilində)
+# Azərbaycanda Pərakəndə Ticarət Dövriyyəsi Analizi (Azərbaycan dilində)
 
 ### 🔍 Layihənin Məqsədi
 
