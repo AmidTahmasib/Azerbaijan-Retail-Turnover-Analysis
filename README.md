@@ -452,6 +452,12 @@ Sektorların illik indekslərini müqayisə etmək.
 
 ---
 
+## 📄 License
+
+This project is licensed under the MIT License — use, modify, and distribute freely.
+
+---
+
 ## 📩 Contact
 
 For more information or collaboration:  
