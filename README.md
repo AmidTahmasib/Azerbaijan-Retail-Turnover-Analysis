@@ -462,4 +462,4 @@ This project is licensed under the MIT License — use, modify, and distribute f
 
 For more information or collaboration:  
 📧 **amid.meherremov@gmail.com**  
-🌐 **GitHub:** [github.com/AmidTahmasib](https://github.com/AmidTahmasib)
+🌐 **LinkedIn:** [linkedin.com/AmidTahmasib]([https://www.linkedin.com/in/amidtahmasib/])
