@@ -27,7 +27,7 @@ Azerbaijan-Retail-Turnover-Analysis/
 │
 ├── README.md                                    # Project documentation and structure
 │
-├── License.txt
+├── License.txt                                  # MIT License
 │
 ├── images/                                      # Dashboard screenshots & visuals
 │   ├── Main.png
