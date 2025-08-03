@@ -24,7 +24,10 @@ To visualize sectoral trends, structural market changes, and growth indexes in A
 Azerbaijan-Retail-Turnover-Analysis/
 │
 ├── Azerbaijan_Retail_Turnover_Analysis.pbix     # Power BI dashboard file
+│
 ├── README.md                                    # Project documentation and structure
+│
+├── License.txt
 │
 ├── images/                                      # Dashboard screenshots & visuals
 │   ├── Main.png
